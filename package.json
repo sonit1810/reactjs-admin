@@ -1,0 +1,74 @@
+{
+  "name": "Xitrum-CMS",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^16.0.0",
+    "@ckeditor/ckeditor5-ckfinder": "^16.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-react": "^2.0.0",
+    "@material-ui/core": "^4.5.1",
+    "@tanem/react-nprogress": "^3.0.5",
+    "antd": "^3.23.6",
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.2",
+    "bootstrap": "^4.3.1",
+    "connected-react-router": "^6.5.2",
+    "eslint-config-react-app": "^5.2.0",
+    "formik": "^2.0.6",
+    "history": "^4.10.1",
+    "immutable": "latest",
+    "local-storage": "^2.0.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dates": "^21.5.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-hot-loader": "^4.12.14",
+    "react-images-upload": "^1.2.7",
+    "react-intl": "^2.3.0",
+    "react-maskedinput": "^4.0.1",
+    "react-nprogress": "^0.1.6",
+    "react-numeric-input": "^2.2.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.1",
+    "react-scripts": "3.1.2",
+    "react-sortable-tree": "^2.6.2",
+    "react-sortable-tree-theme-full-node-drag": "^1.1.0",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.1",
+    "styled-components": "^5.0.1",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --max-old-space-size=8192",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}

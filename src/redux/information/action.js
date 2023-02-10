@@ -1,0 +1,76 @@
+const informationActions = {
+    INFORMATION_UPDATE_FILTER: "INFORMATION_UPDATE_FILTER",
+    INFORMATION_GET_LIST: "INFORMATION_GET_LIST",
+    INFORMATION_SEARCH_LIST: "INFORMATION_SEARCH_LIST",
+    INFORMATION_GET_LIST_SUCCESS: "INFORMATION_GET_LIST_SUCCESS",
+    INFORMATION_GET_LIST_FAILED: "INFORMATION_GET_LIST_FAILED",
+    INFORMATION_GET_DETAIL: "INFORMATION_GET_DETAIL",
+    INFORMATION_GET_DETAIL_SUCCESS: "INFORMATION_GET_DETAIL_SUCCESS",
+    INFORMATION_STATUS_SUCCESS: "INFORMATION_STATUS_SUCCESS",
+    INFORMATION_STATUS_FAILED: "INFORMATION_STATUS_FAILED",
+    INFORMATION_ADD: "INFORMATION_ADD",
+    INFORMATION_ADD_SUCCESS: "INFORMATION_ADD_SUCCESS",
+    INFORMATION_EDIT: "INFORMATION_EDIT",
+    INFORMATION_EDIT_SUCCESS: "INFORMATION_EDIT_SUCCESS",
+    INFORMATION_DELETE: "INFORMATION_DELETE",
+    INFORMATION_DELETE_SUCCESS: "INFORMATION_DELETE_SUCCESS",
+    INFORMATION_GET_LIST_INFORMATION_TYPE: "INFORMATION_GET_LIST_INFORMATION_TYPE",
+    INFORMATION_GET_LIST_INFORMATION_TYPE_SUCCESS: "INFORMATION_GET_LIST_INFORMATION_TYPE_SUCCESS",
+    INFORMATION_UPLOAD_IMAGE: "INFORMATION_UPLOAD_IMAGE",
+    INFORMATION_UPLOAD_IMAGE_SUCCESS: "INFORMATION_UPLOAD_IMAGE_SUCCESS",
+    INFORMATION_UPLOAD_IMAGE_FAILED: "INFORMATION_UPLOAD_IMAGE_FAILED",
+    INFORMATION_GET_LIST_GROUP: "INFORMATION_GET_LIST_GROUP",
+    INFORMATION_GET_LIST_GROUP_SUCCESS: "INFORMATION_GET_LIST_GROUP_SUCCESS",
+    INFORMATION_RESET_FORM_DATA: "INFORMATION_RESET_FORM_DATA",
+    INFORMATION_GET_LIST_INFORMATION_FACILITY: "INFORMATION_GET_LIST_INFORMATION_FACILITY",
+    INFORMATION_GET_LIST_INFORMATION_FACILITY_SUCCESS: "INFORMATION_GET_LIST_INFORMATION_FACILITY_SUCCESS",
+
+    updateFilter(filter) {
+        return {
+            type: informationActions.INFORMATION_UPDATE_FILTER,
+            filter: filter
+        }
+    },
+    getList(filter) {
+        return {
+            type: informationActions.INFORMATION_GET_LIST,
+            filter: filter
+        }
+    },
+    getById(params) {
+        return {
+            type: informationActions.INFORMATION_GET_DETAIL,
+            params: params
+        }
+    },
+    add(params) {
+        return {
+            type: informationActions.INFORMATION_ADD,
+            params: params
+        }
+    },
+    edit(params) {
+        return {
+            type: informationActions.INFORMATION_EDIT,
+            params: params
+        }
+    },
+    delete(params) {
+        return {
+            type: informationActions.INFORMATION_DELETE,
+            params: params
+        }
+    },
+    uploadImage(params) {
+        return {
+            type: informationActions.INFORMATION_UPLOAD_IMAGE,
+            params: params
+        }
+    },
+    resetFormData() {
+        return {
+            type: informationActions.INFORMATION_RESET_FORM_DATA
+        }
+    },
+};
+export default informationActions;
